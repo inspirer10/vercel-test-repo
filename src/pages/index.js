@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 export default function Home() {
     return (
         <>
@@ -15,6 +15,7 @@ export default function Home() {
                 />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
+            <SpeedInsights />
             <div>
                 <p>
                     TEST REPO <br /> VERCEL & GITHUB
